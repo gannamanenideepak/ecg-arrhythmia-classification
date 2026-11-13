@@ -1,0 +1,88 @@
+{
+  "model_name": "1D CNN with RR Fusion",
+  "overall_accuracy": 0.9249451677163611,
+  "macro_averages": {
+    "precision": 0.4150299574397274,
+    "recall": 0.40794276236263827,
+    "f1_score": 0.4095752362465849
+  },
+  "weighted_averages": {
+    "precision": 0.9178063888792997,
+    "recall": 0.9249451677163611,
+    "f1_score": 0.9209962152856641
+  },
+  "per_class_metrics": {
+    "N": {
+      "description": "N: Normal / Non-ectopic",
+      "precision": 0.9560582306830907,
+      "recall": 0.9648095830037292,
+      "f1_score": 0.9604139715394566,
+      "support": 44245
+    },
+    "S": {
+      "description": "S: Supraventricular ectopic",
+      "precision": 0.2111692844677138,
+      "recall": 0.1317365269461078,
+      "f1_score": 0.16225276567214214,
+      "support": 1837
+    },
+    "V": {
+      "description": "V: Ventricular ectopic",
+      "precision": 0.9079222720478326,
+      "recall": 0.9431677018633541,
+      "f1_score": 0.9252094440213252,
+      "support": 3220
+    },
+    "F": {
+      "description": "F: Fusion of ventricular & normal",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 388
+    },
+    "Q": {
+      "description": "Q: Unknown / Paced / Unclassifiable",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 7
+    }
+  },
+  "confusion_matrix": [
+    [
+      42688,
+      876,
+      166,
+      514,
+      1
+    ],
+    [
+      1483,
+      242,
+      72,
+      40,
+      0
+    ],
+    [
+      154,
+      28,
+      3037,
+      1,
+      0
+    ],
+    [
+      323,
+      0,
+      65,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      5,
+      0,
+      0
+    ]
+  ]
+}

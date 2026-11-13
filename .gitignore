@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Raw and processed ECG data (downloaded automatically via script)
+data/
+
+# Private interview / internal submission files
+comparison_submission/
+*.pdf
+*.zip
+
+# Python bytecode & OS metadata
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Large scikit-learn model artifacts
+models/*.joblib
